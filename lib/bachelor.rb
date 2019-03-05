@@ -57,7 +57,7 @@ end
 end
 end
 num_of_const = result.length
-total = result.each { |a| sum+=a }
+total = result.sum
 answer = total / num_of_const
 end
 answer
