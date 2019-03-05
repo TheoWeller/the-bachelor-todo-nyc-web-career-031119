@@ -17,7 +17,7 @@ def get_contestant_name(data, occupation)
   data.each do |season_num, value_array|
       value_array.each do |contestant|
         if contestant["occupation"] == occupation
-          result.push(contestant["name"])
+          result.push(contestant["name"].to_s)
           end
         end
       end
