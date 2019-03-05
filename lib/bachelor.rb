@@ -59,6 +59,5 @@ end
 sum = 0
 result.each { |a| sum+=a }
 end
-answer = sum / result.length
-answer
+sum
 end
