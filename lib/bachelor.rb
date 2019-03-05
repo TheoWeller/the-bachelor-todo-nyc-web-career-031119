@@ -20,8 +20,7 @@ def get_contestant_name(data, occupation)
   data.each do |season_num, value_array|
       value_array.each do |contestant|
         if contestant["occupation"] == "occupation"
-
-            return contestant["name"]
+          return contestant["name"]
           end
         end
       end
