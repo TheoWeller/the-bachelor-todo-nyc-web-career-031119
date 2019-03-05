@@ -58,7 +58,7 @@ end
 end
 sum = 0
 result.each { |a| sum+=a }
-answer = total / num_of_const
 end
+answer = sum / result.length
 answer
 end
