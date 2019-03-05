@@ -56,5 +56,6 @@ def get_average_age_for_season(data, season)
 end
 end
 end
-result.inject(0){|sum,x| sum + x } / result.length
+answer = result.inject(0){|sum,x| sum + x } / result.length
+answer.round
 end
